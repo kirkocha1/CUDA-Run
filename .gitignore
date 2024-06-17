@@ -4,3 +4,4 @@
 *.ptx
 *.cubin
 *.fatbin
+/bin/x86_64/*

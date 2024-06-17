@@ -1,0 +1,11 @@
+./bin/filterNPP Starting...
+
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version: 11.3.3
+CUDA Driver Version: 12.0
+CUDA Runtime Version: 11.3
+input file path is taken from args data/woman.pgm
+args were parsed successfully starting main logic
+applying Gauss filter to the changed image
+Filter was applied successfully and image was saved!

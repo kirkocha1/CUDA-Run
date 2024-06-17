@@ -1,0 +1,5 @@
+To run this code successfully you should have:
+- NVIDIA unit on the host and cuda libs installed
+- you need to download [cuda-samples](https://github.com/NVIDIA/cuda-samples/tree/master/Common) code as a higher level folder, it will be linked during build stage
+- run `make clean build` to build executable
+- you can use `run.sh` script to run code

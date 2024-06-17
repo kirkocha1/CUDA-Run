@@ -3,7 +3,9 @@ This is a template for the course project for the CUDA at Scale for the Enterpri
 
 ## Project Description
 
-Beyond just being a template for course members, this project can be used by non-course members as the general structure for CUDA projects.
+This project is just a basic experiment with ImageNPP lib and few filters. In the course lab box npp filter was used, I refactored the code a bit and added gauss filter that is working with the same image type pgm where image is grayscale and 8 bits per point is used.
+
+I used coursera visual studio code sandbox to run a code, binaries are compiled for x86_64 arc.
 
 ## Code Organization
 
@@ -23,12 +25,12 @@ The source code should be placed here in a hierarchical fashion, as appropriate.
 This file should hold the description of the project so that anyone cloning or deciding if they want to clone this repository can understand its purpose to help with their decision.
 
 ```INSTALL```
-This file should hold the human-readable set of instructions for installing the code so that it can be executed. If possible it should be organized around different operating systems, so that it can be done by as many people as possible with different constraints.
+check this file if you want to build and run code your self
 
 ```Makefile or CMAkeLists.txt or build.sh```
 There should be some rudimentary scripts for building your project's code in an automatic fashion.
 
 ```run.sh```
-An optional script used to run your executable code, either with or without command-line arguments.
+Is an entry point to run the code, it has predefined arguments that will take necessary inputs. You can override them in case you want to use another image or filter.
 
 
